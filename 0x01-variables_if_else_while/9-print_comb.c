@@ -13,13 +13,13 @@
 int main(void)
 {
 	int i = 48;
-	int j = 44;
+	int ascii[2]  = {44, 32};
 		while (i < 58)
 		{
 			if (i != 57)
 			{
 				putchar(i);
-				putchar(j);
+				putchar(ascii[0]);
 			}
 			else
 			{
