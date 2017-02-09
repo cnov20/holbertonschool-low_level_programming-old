@@ -1,9 +1,13 @@
 #include <stdio.h>
 
 /**
+ * main - entry point of program
  *
+ * while loop - iterate through base hexadecimal
  *
+ * putchar - print characters and new lines
  *
+ * Return: (0) - always - success
  *
  */
 
@@ -24,6 +28,6 @@ int main(void)
 		j++;
 	}
 
-        putchar('\n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
