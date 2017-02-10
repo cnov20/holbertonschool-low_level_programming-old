@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-/*
+/**
  * main - entry of program
  *
- * func -
- *
- * putchar -
- *
- * Return: (0) - always - success
+ * Return: 0 - always - success
  *
  */
 

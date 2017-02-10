@@ -11,11 +11,11 @@
 
 int main(void)
 {
-	int i = 48;
+	int i = 0;
 
-	while (i < 58)
+	while (i < 10)
 	{
-		putchar(i);
+		putchar(i + '0');
 		i++;
 	}
 
